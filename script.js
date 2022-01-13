@@ -175,7 +175,6 @@ $(document).ready(function () {
 
         if(event.type != "mouseout") {
             undo_frames.push(context.getImageData(0, 0, canvas.width, canvas.height));
-            undo_index += 1;
         }
     }
 });
